@@ -17,4 +17,3 @@ def countdown_with_sleep(n)
     return "HAPPY NEW YEAR!"
 end
 
-end
