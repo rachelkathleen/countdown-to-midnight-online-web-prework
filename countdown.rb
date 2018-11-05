@@ -1,5 +1,5 @@
 #write your code here
-def countdown(number)
+def countdown(n)
   countdown = number
   countdown =- 1
   while countdown > 0
