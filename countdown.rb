@@ -1,5 +1,5 @@
 #write your code here
-def countdown(number)
+def countdown
   countdown = number
   return "HAPPY NEW YEAR!"
   while countdown > 0
