@@ -4,7 +4,7 @@ require 'benchmark'
 describe 'LOOPS' do
 
   describe '#countdown' do
-    let(:countdown_output) { "10 SECOND(S)!\9 SECOND(S)!\8 SECOND(S)!\7 SECOND(S)!\6 SECOND(S)!\5 SECOND(S)!\4 SECOND(S)!\3 SECOND(S)!\2 SECOND(S)!\1 SECOND(S)!\n" }
+    let(:countdown_output) { "10 SECOND(S)!\n9 SECOND(S)!\n8 SECOND(S)!\n7 SECOND(S)!\n6 SECOND(S)!\n5 SECOND(S)!\n4 SECOND(S)!\n3 SECOND(S)!\n2 SECOND(S)!\n1 SECOND(S)!\n" }
 
     it "outputs '<n> SECOND(S)!' string to STDOUT for each count" do
       expect { countdown(10) }.to output(countdown_output).to_stdout
