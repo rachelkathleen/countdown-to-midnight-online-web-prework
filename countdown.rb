@@ -1,5 +1,4 @@
 #write your code here
-
 def countdown(number)
   countdown = number
   countdown =- 1
